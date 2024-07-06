@@ -1,9 +1,6 @@
 import React from 'react';
 import { CurrencyRate } from '../types/types';
-
-interface CardDescriptionProps {
-  currency: CurrencyRate;
-}
+import { CardDescriptionProps } from '../types/types';
 
 const CardDescription: React.FC<CardDescriptionProps> = ({ currency }) => {
 

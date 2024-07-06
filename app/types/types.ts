@@ -82,4 +82,8 @@ export interface CardContainerProps {
 export interface CurrencyCardProps {
     currency: CurrencyRate;
   }
+
+export interface CardDescriptionProps {
+  currency: CurrencyRate;
+}
   
